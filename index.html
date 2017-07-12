@@ -35,10 +35,10 @@
             Разработка сайтов под ключ</p>
         </div>
       </div>
-      <a href="#" class="main-down"><i class="icon-down"></i></a>
+      <a href="#port" class="main-down"><i class="icon-down"></i></a>
     </div>
 
-    <div class="portfolio">
+    <div class="portfolio" id="port">
       <div class="container">
         <h2 class="portfolio-header">Портфолио</h2>
         <div class="row">
@@ -115,5 +115,15 @@
         });
       });
     </script>
+	<script>
+	$(document).ready(function(){
+		$(".slowly").on("click",function(event){
+		event.preventDefault;
+		var id=$(this).attr('href');
+		top=$(id).offset.top;
+		$('body,html').animate({scrollTop:top},800);
+		});
+	});
+	</script>
   </body>
 </html>
