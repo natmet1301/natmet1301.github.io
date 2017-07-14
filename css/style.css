@@ -108,7 +108,7 @@ html{
   border-bottom: 1px dotted #333;
 }
 .footer{
-  background-color: #646464;
+  background-color: #1e292f;
   color:#fff;
   text-align: center;
   padding: 3rem 0;
@@ -135,7 +135,7 @@ html{
 }
 .social-links a:hover{
   background-color: #fff;
-  color:#646464;
+  color:#1e292f;
 }
 .offer-btn{
   display: block;
